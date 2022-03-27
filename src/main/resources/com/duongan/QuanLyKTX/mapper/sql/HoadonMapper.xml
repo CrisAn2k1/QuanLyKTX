@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.duongan.QuanLyKTX.mapper.HoadonMapper">
+  <resultMap id="BaseResultMap" type="com.duongan.QuanLyKTX.model.Hoadon">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    <id column="id_hoadon" jdbcType="INTEGER" property="idHoadon" />
+    <result column="thanhtien" jdbcType="DOUBLE" property="thanhtien" />
+    <result column="ngayxuatHD" jdbcType="TIMESTAMP" property="ngayxuathd" />
+    <result column="id_phong" jdbcType="VARCHAR" property="idPhong" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    id_hoadon, thanhtien, ngayxuatHD, id_phong
+  </sql>
+  <select id="selectByExample" parameterType="com.duongan.QuanLyKTX.model.HoadonExample" resultMap="BaseResultMap">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from hoadon
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    select 
+    <include refid="Base_Column_List" />
+    from hoadon
+    where id_hoadon = #{idHoadon,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    delete from hoadon
+    where id_hoadon = #{idHoadon,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.duongan.QuanLyKTX.model.HoadonExample">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    delete from hoadon
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.duongan.QuanLyKTX.model.Hoadon">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    insert into hoadon (id_hoadon, thanhtien, ngayxuatHD, 
+      id_phong)
+    values (#{idHoadon,jdbcType=INTEGER}, #{thanhtien,jdbcType=DOUBLE}, #{ngayxuathd,jdbcType=TIMESTAMP}, 
+      #{idPhong,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.duongan.QuanLyKTX.model.Hoadon">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    insert into hoadon
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="idHoadon != null">
+        id_hoadon,
+      </if>
+      <if test="thanhtien != null">
+        thanhtien,
+      </if>
+      <if test="ngayxuathd != null">
+        ngayxuatHD,
+      </if>
+      <if test="idPhong != null">
+        id_phong,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="idHoadon != null">
+        #{idHoadon,jdbcType=INTEGER},
+      </if>
+      <if test="thanhtien != null">
+        #{thanhtien,jdbcType=DOUBLE},
+      </if>
+      <if test="ngayxuathd != null">
+        #{ngayxuathd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="idPhong != null">
+        #{idPhong,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.duongan.QuanLyKTX.model.HoadonExample" resultType="java.lang.Long">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    select count(*) from hoadon
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    update hoadon
+    <set>
+      <if test="row.idHoadon != null">
+        id_hoadon = #{row.idHoadon,jdbcType=INTEGER},
+      </if>
+      <if test="row.thanhtien != null">
+        thanhtien = #{row.thanhtien,jdbcType=DOUBLE},
+      </if>
+      <if test="row.ngayxuathd != null">
+        ngayxuatHD = #{row.ngayxuathd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="row.idPhong != null">
+        id_phong = #{row.idPhong,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    update hoadon
+    set id_hoadon = #{row.idHoadon,jdbcType=INTEGER},
+      thanhtien = #{row.thanhtien,jdbcType=DOUBLE},
+      ngayxuatHD = #{row.ngayxuathd,jdbcType=TIMESTAMP},
+      id_phong = #{row.idPhong,jdbcType=VARCHAR}
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.duongan.QuanLyKTX.model.Hoadon">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    update hoadon
+    <set>
+      <if test="thanhtien != null">
+        thanhtien = #{thanhtien,jdbcType=DOUBLE},
+      </if>
+      <if test="ngayxuathd != null">
+        ngayxuatHD = #{ngayxuathd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="idPhong != null">
+        id_phong = #{idPhong,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id_hoadon = #{idHoadon,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.duongan.QuanLyKTX.model.Hoadon">
+    <!-- @mbg.generated: generated automatically, do not modify! -->
+    update hoadon
+    set thanhtien = #{thanhtien,jdbcType=DOUBLE},
+      ngayxuatHD = #{ngayxuathd,jdbcType=TIMESTAMP},
+      id_phong = #{idPhong,jdbcType=VARCHAR}
+    where id_hoadon = #{idHoadon,jdbcType=INTEGER}
+  </update>
+</mapper>
