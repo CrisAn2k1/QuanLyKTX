@@ -11,6 +11,6 @@
         <module name="QuanLyKTX.test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="16" />
   </component>
 </project>
