@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
@@ -17,12 +17,13 @@
     <title>Trang chủ - Ký Túc Xá TP.HCM</title>
 
     <!-- // PLUGINS (css files) // -->
-    
+
+    <link rel="icon" href="/assets/img/banner.jpg" sizes="32x32">
+    <link rel="icon" href="/assets/img/banner.jpg" sizes="192x192">
+
     <link rel="stylesheet" href="/assets/css/main.css"/>
     
     <link rel="stylesheet" href="/assets/css/style.css"/>
-    
-  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
     
@@ -61,19 +62,19 @@
 
     ========================================-->
 
-    <div class="page-preloader">
-      <div class="spinner">
-        <div class="rect1"></div>
+<!--    <div class="page-preloader">-->
+<!--      <div class="spinner">-->
+<!--        <div class="rect1"></div>-->
 
-        <div class="rect2"></div>
+<!--        <div class="rect2"></div>-->
 
-        <div class="rect3"></div>
+<!--        <div class="rect3"></div>-->
 
-        <div class="rect4"></div>
+<!--        <div class="rect4"></div>-->
 
-        <div class="rect5"></div>
-      </div>
-    </div>
+<!--        <div class="rect5"></div>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <!--======================================== 
 
@@ -188,6 +189,7 @@
 
               <div class="form-group">
                 <input
+                  name="email"
                   type="email"
                   class="form-control"
                   placeholder="Địa chỉ email"
@@ -197,6 +199,7 @@
 
               <div class="form-group">
                 <input
+                  name="username"
                   type="text"
                   class="form-control"
                   placeholder="Tên đăng nhập"
@@ -217,7 +220,7 @@
                 <input
                   type="password"
                   class="form-control"
-                  placeholder="Xác nhận Mật khẩu"
+                  placeholder="Xác nhận mật khẩu"
                   required="required"
                 />
               </div>
@@ -431,15 +434,9 @@
 
     ========================================-->
 
-    <!-- Modal -->
+    <!-- Modal Login -->
 
-    <div
-      class="modal fade"
-      id="SignIn"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="myModalLabel"
-    >
+    <div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -452,13 +449,21 @@
               <span aria-hidden="true">&times;</span>
             </button>
 
-            <h4 class="modal-title text-center" id="myModalLabel">Sign In</h4>
+            <h4 class="modal-title text-center" id="myModalLabel">Đăng Nhập</h4>
           </div>
 
           <div class="modal-body">
-            <form class="signup-form">
+            <div th:if="${param.error}">
+              Invalid username and password.
+            </div>
+            <div th:if="${param.logout}">
+              You have been logged out.
+            </div>
+            <form th:action="@{/j_spring_security_check}" method="post" class="signup-form">
               <div class="form-group">
                 <input
+                  id="username"
+                  name="username"
                   type="text"
                   class="form-control"
                   placeholder="User Name"
@@ -468,7 +473,9 @@
 
               <div class="form-group">
                 <input
-                  type="text"
+                  id="password"
+                  name="password"
+                  type="password"
                   class="form-control"
                   placeholder="Password"
                   required="required"
@@ -476,8 +483,8 @@
               </div>
 
               <div class="form-group text-center">
-                <button type="submit" class="btn btn-blue btn-block">
-                  Log In
+                <button type="submit" value="SignIn" class="btn btn-blue btn-block">
+                  Đăng nhập
                 </button>
               </div>
             </form>
@@ -486,7 +493,7 @@
           <div class="modal-footer text-center">
             <a href="#">Forgot your password /</a>
 
-            <a href="#">Signup</a>
+            <a href="#">Đăng ký</a>
           </div>
         </div>
       </div>
