@@ -4,23 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7d9485b-291a-4a79-bdf5-101e0815a5f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/service/userDetailsService.java" afterDir="false" />
+    <list default="true" id="258592f1-149f-4d8e-8cb1-3559bec34fb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisbuilder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/QuanLyKtxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/QuanLyKtxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/config/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/config/DatabaseConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/controller/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HoadonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HoadonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HosochuyenphongMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HosochuyenphongMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HosodangkyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/HosodangkyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/NoithatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/NoithatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/PhongMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/PhongMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/PhongNoithatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/PhongNoithatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/ToanhaMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/ToanhaMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hoadon.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hoadon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HoadonExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hosochuyenphong.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hosochuyenphong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosochuyenphongExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hosodangky.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Hosodangky.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/HosodangkyExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Noithat.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Noithat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/NoithatExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Phong.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Phong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithat.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/PhongNoithatExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Toanha.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/Toanha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/ToanhaExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserWithBLOBs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/model/UserWithBLOBs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/service/userDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/duongan/QuanLyKTX/service/userDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/QuanLyKtxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/QuanLyKtxApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/controller/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/controller/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/model/UserWithBLOBs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duongan/QuanLyKTX/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/QuanLyKTX/QuanLyKtxApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,75 +121,157 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML4 File" />
+        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedIndex" value="1" />
   </component>
-  <component name="ProjectId" id="26mtZQE2GfzX1a3SACWEUpRy7UU" />
+  <component name="ProjectId" id="273KH311BAycLbv8S16Gx3OPeXW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\WIN\Desktop\DoAn-Java\QuanLyKTX\src\main\resources\static\assets" />
-      <recent name="C:\Users\WIN\Desktop\DoAn-Java\QuanLyKTX\src\main\resources\com\duongan\QuanLyKTX\mapper\sql" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.duongan.QuanLyKTX.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QuanLyKTX\src\main\resources\templates" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.duongan.QuanLyKTX.mapper" />
+      <recent name="com.duongan.QuanLyKTX" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="QuanLyKtxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="QuanLyKTX.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duongan.QuanLyKTX.QuanLyKtxApplication" />
+  <component name="RunManager" selected="Spring Boot.QuanLyKtxApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuanLyKtxApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.QuanLyKTX.QuanLyKtxApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.duongan.QuanLyKTX.UserRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest.testCreateUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.duongan.QuanLyKTX.UserRepositoryTest.testCreateUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuanLyKtxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="QuanLyKTX.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duongan.QuanLyKTX.QuanLyKtxApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserRepositoryTest" />
+        <item itemvalue="Gradle.UserRepositoryTest" />
+        <item itemvalue="Gradle.QuanLyKtxApplicationTests" />
+        <item itemvalue="Gradle.UserRepositoryTest.testCreateUser" />
+        <item itemvalue="Gradle.UserRepositoryTest.testCreateUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7d9485b-291a-4a79-bdf5-101e0815a5f7" name="Changes" comment="" />
-      <created>1648040643490</created>
+      <changelist id="258592f1-149f-4d8e-8cb1-3559bec34fb1" name="Default Changelist" comment="" />
+      <created>1648543241653</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648040643490</updated>
-      <workItem from="1648040644784" duration="35000" />
-      <workItem from="1648040732065" duration="4983000" />
-      <workItem from="1648284025861" duration="1883000" />
-      <workItem from="1648367590569" duration="12985000" />
-      <workItem from="1648389312291" duration="113000" />
-      <workItem from="1648392111013" duration="1136000" />
-      <workItem from="1648470809146" duration="2354000" />
-      <workItem from="1648473227471" duration="11119000" />
+      <updated>1648543241653</updated>
+      <workItem from="1648543246496" duration="481000" />
+      <workItem from="1648543828633" duration="23209000" />
     </task>
     <servers />
   </component>
@@ -132,15 +288,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

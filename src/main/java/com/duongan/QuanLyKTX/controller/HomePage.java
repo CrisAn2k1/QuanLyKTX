@@ -4,10 +4,16 @@ import java.util.List;
 
 import com.duongan.QuanLyKTX.mapper.NoithatMapper;
 import com.duongan.QuanLyKTX.model.*;
+import com.duongan.QuanLyKTX.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -17,6 +23,8 @@ import com.duongan.QuanLyKTX.mapper.UserMapper;
 @Service
 @Controller
 public class HomePage {
+	@Autowired
+	private UserRepository repo;
 
 	@Autowired
 	UserMapper usersMapper;
@@ -43,6 +51,9 @@ public class HomePage {
 		}
 		return modelAndView;
 	}
+
+
+
 	@GetMapping("/login")
 	public ModelAndView login(){
 		ModelAndView modelAndView = new ModelAndView("login");
@@ -55,4 +66,42 @@ public class HomePage {
 
 		return modelAndView;
 	}
+
+	@GetMapping("/register")
+	public String showRegistrationForm(Model model) {
+		model.addAttribute("user", new User());
+
+		return "signup_form";
+	}
+
+//	@GetMapping("/register")
+//	public ModelAndView registerForm(){
+//		ModelAndView modelAndView = new ModelAndView("signup_form");
+//		return modelAndView;
+//	}
+
+	@PostMapping("/process_register")
+	public String processRegister(User user) {
+		PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		String encodedPassword = passwordEncoder.encode(user.getPassword());
+		user.setPassword(encodedPassword);
+
+		repo.save(user);
+
+		return "signup_success";
+	}
+
+
+//	@PostMapping("/process_register")
+//	public ModelAndView signupSuccess(User user) {
+//
+//		PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+//		String encodedPassword = passwordEncoder.encode(user.getPassword());
+//		user.setPassword(encodedPassword);
+//		repo.save(user);
+//		ModelAndView modelAndView = new ModelAndView("signup_success");
+//		return modelAndView ;
+//	}
+
+
 }

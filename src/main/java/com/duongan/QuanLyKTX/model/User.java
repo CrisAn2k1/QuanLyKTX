@@ -1,11 +1,19 @@
 package com.duongan.QuanLyKTX.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+
+@Entity
+@Table(name = "user")
 public class User {
-	
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	private String username;	
-	private String password;	
+	private String password;
+	@Column(nullable = false,unique = true)
 	private String email;	
 	private String phone;	
 	private Date ngaysinh;	
@@ -15,7 +23,15 @@ public class User {
 	private Date ngaytao;	
 	private String avatar;	
 	private String idPhong;
-	
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public String getUsername() {
 		return username;
 	}
